@@ -7,7 +7,7 @@ An 11-job Databricks fleet (Bronze ingestion, Silver cleaning, a streaming job, 
 ## Planned layout
 
 ```
-jobs/            my fixed job code and the exported job definitions (not the course setup notebook)
+jobs/            my fixed job code and the exported job definitions (not the provided setup notebook)
 docs/fix_log.md  one row per break: job, symptom, error class, root cause, change, evidence
 docs/incidents/  one postmortem per break, with before and after snippets
 docs/query_profile.md  rows read, join strategy, slowest step
